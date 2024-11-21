@@ -15,10 +15,11 @@
 }
 
 .box {
-    width: 650px;
-    height: 60%;
+    width: 730px;
+    height: 70%;
     background-color: white;
     border-radius: 5%;
+    position: absolute;
 }
 
 .img{
@@ -27,25 +28,109 @@
     border-radius: 5%;
     margin-top: 75px;
     margin-left: 25px;
+    transition: 1s ease ;
+}
+
+.img:hover {
+    margin-top: 75px;
+    margin-left: 25px;
+    content: url(https://img07.shop-pro.jp/PA01116/269/product/176806269_o2.jpg?cmsp_timestamp=20241001092944);
+    transition: 1s ease ;
+
 }
 
 .box1 {
-margin-left: 325px;
-   width: 325px;
-   height:fit-content;
-background-color: aquamarine;
+    display: inline-block;
+   width: 300px;
+   height: 100%;
+   margin-top: 50px;
+    position: absolute;
+    text-align: left;
 }
 
-.box2 {
-    width: 325px;
-   height: auto;
-background-color: aquamarine;
 
-}
+
 
 .title {
-    margin-top: 20px;
-    font-size: 24px;
-    font-weight: bold;
+    margin-top: 60px;
+    margin-left: 15px;
+    font-size: 1ic;
+    font-weight:0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+}
 
+.Producttitle {
+    margin-top: 100px;
+    margin-left: 15px;
+    font-size: 2ric;
+    font-weight:0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+}
+
+.Paraproduct {
+    line-height: 150%;
+    margin-top: 230px;
+    margin-left: 15px;
+    font-size: 2fr;
+    font-weight:0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+}
+
+.cost {
+    margin-top: 55%;
+    margin-left: 30px;
+    font-size: 5rex;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(61,129,104,255);
+    text-align: left;
+}
+
+.costdiscont {
+    text-align: left;
+    margin-top: 56%;
+    margin-left: 26%;
+    font-size: 2rex;
+    font-weight: bold;
+    text-decoration: line-through;
+    color: rgba(55, 68, 59, 0.616);
+
+}
+
+
+
+.btn {
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 330px;
+    padding: 15px 115px ;
+    border-radius: 15px;
+    color: white;
+    background-color: rgba(61,129,104,255);
+    height: auto;
+    width: fit-content;
+    transition: 0.5s;
+
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: rgb(19, 66, 49);
+    transition: 0.5s;
+
+}
+.btntext {
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+}
+
+.cartimg {
+    fill: white;
+    width: 24px;
+    height: auto;
 }
