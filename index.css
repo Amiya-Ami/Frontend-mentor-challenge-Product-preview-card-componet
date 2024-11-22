@@ -126,8 +126,8 @@ html, body {
     cursor: pointer;
     background-color: rgb(19, 66, 49);
     transition: 0.5s;
-
 }
+
 .btntext {
     font-size: 18px;
     text-align: center;
@@ -136,7 +136,7 @@ html, body {
 }
 
 .cartimg {
-    fill: white;
+    filter: invert(1) sepia(1) saturate(5) hue-rotate(200deg);
     width: 24px;
     height: auto;
 }
