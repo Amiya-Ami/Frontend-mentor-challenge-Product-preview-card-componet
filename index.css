@@ -2,7 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    height: 100%;
+    overflow: hidden;  /* Prevent scrolling */
 }
 
 .bg{
@@ -12,6 +16,7 @@
     width: 100%;
     height: 100vh;
     background-color: rgba(250, 228, 215, 0.575);
+    overflow: hidden; 
 }
 
 .box {
@@ -19,7 +24,7 @@
     height: 70%;
     background-color: white;
     border-radius: 5%;
-    position: absolute;
+    overflow: hidden; 
 }
 
 .img{
@@ -28,17 +33,16 @@
     border-radius: 5%;
     margin-top: 75px;
     margin-left: 25px;
-    transition: 1s ease ;
+    transition:  1s   ;
+    opacity: 1;
 }
 
 .img:hover {
-    margin-top: 75px;
-    margin-left: 25px;
-    content: url(https://img07.shop-pro.jp/PA01116/269/product/176806269_o2.jpg?cmsp_timestamp=20241001092944);
-    transition: 1s ease ;
-
+    content: url('https://img07.shop-pro.jp/PA01116/269/product/176806269_o2.jpg?cmsp_timestamp=20241001092944');
+    transition: 1s  ;
 }
 
+ 
 .box1 {
     display: inline-block;
    width: 300px;
@@ -52,7 +56,7 @@
 
 
 .title {
-    margin-top: 60px;
+    margin-top: 45px;
     margin-left: 15px;
     font-size: 1ic;
     font-weight:0;
@@ -61,8 +65,9 @@
 }
 
 .Producttitle {
-    margin-top: 100px;
+    margin-top: 80px;
     margin-left: 15px;
+    line-height: 120%;
     font-size: 2ric;
     font-weight:0;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -71,7 +76,7 @@
 
 .Paraproduct {
     line-height: 150%;
-    margin-top: 230px;
+    margin-top: 215px;
     margin-left: 15px;
     font-size: 2fr;
     font-weight:0;
@@ -80,21 +85,22 @@
 }
 
 .cost {
-    margin-top: 55%;
-    margin-left: 30px;
-    font-size: 5rex;
+    margin-top: 399px;
+    margin-left: 25px;
+    font-size: 6rex;
     font-weight: bold;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: rgba(61,129,104,255);
     text-align: left;
 }
 
 .costdiscont {
     text-align: left;
-    margin-top: 56%;
-    margin-left: 26%;
-    font-size: 2rex;
+    margin-top: 410px;
+    margin-left: 200px;
+    font-size: 2.5rex;
     font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-decoration: line-through;
     color: rgba(55, 68, 59, 0.616);
 
@@ -104,8 +110,8 @@
 
 .btn {
     position: absolute;
-    margin-top: 35px;
-    margin-left: 330px;
+    margin-top: 45px;
+    margin-left: 340px;
     padding: 15px 115px ;
     border-radius: 15px;
     color: white;
